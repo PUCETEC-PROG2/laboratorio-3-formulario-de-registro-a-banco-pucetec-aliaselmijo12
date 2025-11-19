@@ -41,7 +41,40 @@
 <br>
 
 <div>
-    
+    <label for="tipoCuenta">Tipo de cuenta:</label>
+<select id="tipoCuenta" name="tipoCuenta" required>
+  <option value="">-- Selecciona una opción --</option>
+  <option value="Ahorros">Ahorros</option>
+  <option value="Corriente">Corriente</option>
+</select>
+</div>
+<br>
+
+<div>
+    <fieldset>
+  <legend>Dirección de domicilio</legend>
+  <label for="calle">Calle:</label>
+  <input id="calle" name="calle" type="text" placeholder="Calle del domicilio del cliente" required />
+  <br /><br />
+
+  <label for="numero">Número:</label>
+  <input id="numero" name="numero" type="text" placeholder="Número del domicilio del cliente" required />
+  <br /><br />
+
+  <label for="interseccion">Intersección:</label>
+  <input id="interseccion" name="interseccion" type="text" placeholder="Intersección del domicilio del cliente" required />
+</fieldset>
+</div>
+<br>
+
+<div>
+    <label for="foto">Cargar foto:</label>
+<input id="foto" name="foto" type="file" accept="image/*" />
+</div>
+<br>
+
+<div>
+    <button type="submit">Confirmar</button>
 </div>
     </form>
     
